@@ -1,0 +1,543 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: black; */
+  margin: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+section {
+  border: 0.5px solid rgb(184, 184, 184);
+  padding: 5px;
+  
+}
+
+.nav {
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.logo-section {
+  display: flex;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 80px;
+}
+
+.logo-button {
+  background-color: blue;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.my-nav{
+  background-color: rgb(161, 88, 0);
+}
+
+.nav-section ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav-section {
+  margin-right: 10px;
+}
+
+.hamburger{
+  height: 20px;
+  width: auto;
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* -----------------------------------Hover------------------------------------------------------------- */
+.Hero-button a:hover {
+  background-color: blue;
+
+  border-radius: 3px;
+  color: white;
+}
+
+.nav-section ul li :hover {
+  background-color: blue;
+
+
+  color: white;
+  padding: 5px;
+}
+
+.learners-button a:hover {
+  background-color: blue;
+
+  color: white;
+}
+
+.Exec-button1:hover {
+  background-color: rgb(161, 88, 0);
+
+  color: white;
+}
+.Exec-button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+
+.Vision button:hover {
+    background-color: white;
+    color: rgb(161, 88, 0);
+  }
+/* -------------------------------------- Hover Ends ---------------------------------------------------------------------------------------------------------- */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(to top, #f3f3f3 0%, white 100%); */
+  padding: 5px;
+  padding-top: 75px;
+}
+
+.hero-image {
+  width: 300px;
+  height: auto;
+}
+
+.Hero-button {
+  border: 2.5px solid rgb(161, 88, 0);
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+}
+.Hero-button:hover {
+  background-color: rgb(161, 88, 0);
+  color: white;
+}
+
+.main :first-child {
+  margin-right: 35px;
+}
+
+.Second-header {
+  text-align: center;
+  font-size: 30px;
+}
+
+.Second-display {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.Second-display {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.Second-display div {
+  margin: 5px;
+}
+
+.short {
+  height: 139px;
+  width: auto;
+}
+
+.resized-image {
+  height: 147px;
+  width: auto;
+}
+
+.no-margin {
+  padding: 0px;
+  margin: 0px;
+}
+.no-margin img {
+  width: 100%;
+}
+
+.span1 {
+  background-color: lightblue;
+  padding: 2px;
+}
+
+.learners {
+  display: flex;
+  justify-content: center;
+}
+
+.computer {
+  height: 300px;
+  width: auto;
+}
+
+.learners-button {
+  background-color: rgb(161, 88, 0);
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  border: none;
+
+
+}
+
+.learners-button a{
+  color: white;
+
+
+
+}
+
+
+.exec1 {
+  width: 285px;
+  height: 278px;
+}
+.exec2 {
+  width: 270px;
+  height: auto;
+}
+
+.The-plan {
+  background-color: rgb(161, 88, 0);
+  height: 279px;
+  padding: 10px;
+  font-size: 12px !important;
+  color: white;
+}
+
+.innovate {
+  background-color: rgb(10, 10, 10);
+  height: 279px;
+  color: white;
+  font-size: 12px !important;
+  padding: 10px;
+}
+
+.EXECS {
+  display: flex;
+
+}
+
+.Exec-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 2px solid white;
+  color: #ffffff;
+  background-color: transparent;
+}
+.Exec-button a {
+  text-decoration: none;
+}
+
+.Exec-button1 {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 2px solid white;
+  color: #ffffff;
+}
+
+.Vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.Vision button {
+  background-color: rgb(1, 1, 1);
+  padding: 5px 30px;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  border: none;
+}
+
+.child-image {
+  height: 300px;
+  width: auto;
+}
+
+/* button{
+  
+        background-color: blue;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 5px;
+        margin: 5px;
+
+    
+} */
+
+.footer {
+  background-color: rgb(161, 88, 0);
+  display: flex;
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+
+}
+
+.footer ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+@media(max-width:700px) {
+
+  body{
+   display: flex;
+   flex-direction: column;
+  }
+
+  section{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: auto;
+  }
+
+
+   .nav-section{display: none;}
+
+   .Second-display{
+    flex-direction: column;
+   }
+
+    .child-image{
+      max-width: 100%;
+      height: auto;
+    }
+   .exec1{
+    width: 97vw;
+    height: auto;
+   }
+
+
+   .main :first-child{
+    margin-top: 10px;
+ 
+   }
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media(max-width: 800px){
+    body{
+        display: flex;
+        flex-direction: column;
+       max-width: auto;
+      
+
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        max-width: auto;
+    }
+
+
+.nav-section ul {
+  display: none;
+
+}
+
+.Second-display{
+  flex-direction: column;
+}
+
+.exec1{width: 98vw;
+  /* overflow: hidden; */
+/* height: auto;}
+
+
+
+.child-image{
+  max-width: 100%;
+    height: auto;
+}
+
+.Hero-button-group{
+
+  order: 1;
+}
+
+
+.hero-image{
+  order: 2;
+}
+
+}
+ */ */
